@@ -3,7 +3,7 @@ import { ChevronRight, ChevronLeft } from 'lucide-react';
 
 const slides = [
   {
-    img: 'https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1920&q=85',
+    img: '/images/hero-forge.png',
     tagline: 'FORGE',
     tagline2: 'TON CORPS',
     sub: 'Des entraînements CrossFit intenses pour dépasser tes limites chaque jour.',
@@ -11,7 +11,7 @@ const slides = [
     ctaHref: '#activities',
   },
   {
-    img: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1920&q=85',
+    img: '/images/hero-community.png',
     tagline: 'BEST YOU',
     tagline2: 'CAN',
     sub: 'Rejoins une communauté soudée et bienveillante qui te pousse à aller plus loin.',
@@ -19,7 +19,7 @@ const slides = [
     ctaHref: '#pricing',
   },
   {
-    img: 'https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&cs=tinysrgb&w=1920&q=85',
+    img: '/images/hero-coaches.png',
     tagline: 'PLUS FORT',
     tagline2: 'CHAQUE JOUR',
     sub: 'Des coaches certifiés et des équipements premium pour atteindre tes objectifs.',
