@@ -120,7 +120,7 @@ export default function Hero() {
 
       {/* Slide controls */}
       <div className="absolute bottom-8 left-0 right-0 z-10 flex items-center justify-center gap-4">
-        <button onClick={prev} className="text-white/60 hover:text-[#D4A017] transition-colors p-1">
+        <button onClick={prev} aria-label="Précédent" className="text-white/60 hover:text-[#D4A017] transition-colors p-3">
           <ChevronLeft size={20} />
         </button>
         {slides.map((_, i) => (
@@ -130,14 +130,14 @@ export default function Hero() {
             className={`slide-dot ${i === current ? 'active' : ''}`}
           />
         ))}
-        <button onClick={next} className="text-white/60 hover:text-[#D4A017] transition-colors p-1">
+        <button onClick={next} aria-label="Suivant" className="text-white/60 hover:text-[#D4A017] transition-colors p-3">
           <ChevronRight size={20} />
         </button>
       </div>
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 right-8 z-10 hidden md:flex flex-col items-center gap-2">
-        <span className="font-condensed text-[10px] tracking-[0.3em] text-white/40 uppercase rotate-90 origin-center mb-4">Scroll</span>
+        <span className="font-condensed text-xs md:text-[10px] tracking-[0.3em] text-white/40 uppercase rotate-90 origin-center mb-4">Scroll</span>
         <div className="w-px h-12 bg-gradient-to-b from-[#D4A017] to-transparent" />
       </div>
     </section>

@@ -141,10 +141,11 @@ export default function Contact() {
                     </div>
                   </div>
                   <div>
-                    <label className="block font-condensed text-xs uppercase tracking-widest text-[#666] mb-2">
+                    <label htmlFor="interest" className="block font-condensed text-xs uppercase tracking-widest text-[#999] mb-2">
                       Je suis intéressé(e) par
                     </label>
                     <select
+                      id="interest"
                       name="interest"
                       value={form.interest}
                       onChange={handleChange}

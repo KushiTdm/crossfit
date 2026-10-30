@@ -74,10 +74,12 @@ export default function Footer() {
             <div className="flex">
               <input
                 type="email"
+                autoComplete="email"
+                aria-label="Votre email"
                 placeholder="Votre email"
                 className="flex-1 bg-[#1A1A1A] border border-white/10 text-white text-xs px-4 py-3 focus:outline-none focus:border-[#D4A017] transition-colors placeholder:text-[#444]"
               />
-              <button className="bg-[#D4A017] text-black px-4 hover:bg-[#F0C040] transition-colors">
+              <button className="bg-[#D4A017] text-black px-4 hover:bg-[#F0C040] transition-colors" aria-label="S'inscrire">
                 <ChevronRight size={16} />
               </button>
             </div>

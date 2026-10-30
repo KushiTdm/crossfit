@@ -73,7 +73,8 @@ export default function Coaches() {
                 {/* Instagram */}
                 <a
                   href={coach.instagram}
-                  className="absolute top-4 right-4 w-9 h-9 bg-black/60 flex items-center justify-center text-white hover:bg-[#D4A017] hover:text-black transition-all duration-200 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0"
+                  aria-label={`Instagram de ${coach.name}`}
+                  className="absolute top-4 right-4 w-9 h-9 bg-black/60 flex items-center justify-center text-white hover:bg-[#D4A017] hover:text-black transition-all duration-200 opacity-100 translate-y-0 md:opacity-0 md:translate-y-2 md:group-hover:opacity-100 md:group-hover:translate-y-0"
                 >
                   <Instagram size={15} />
                 </a>
